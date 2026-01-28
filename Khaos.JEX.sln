@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khaos.JEX", "Khaos.JEX\Khaos.JEX.csproj", "{050702D1-0B2C-47B7-ACFC-A75699A5C9F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khaos.JEX", "src\Khaos.JEX\Khaos.JEX.csproj", "{050702D1-0B2C-47B7-ACFC-A75699A5C9F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khaos.JEX.Tests", "Khaos.JEX.Tests\Khaos.JEX.Tests.csproj", "{A3B1F72A-D39F-4D1A-A29B-DDD18509D584}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khaos.JEX.Tests", "tests\Khaos.JEX.Tests\Khaos.JEX.Tests.csproj", "{A3B1F72A-D39F-4D1A-A29B-DDD18509D584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khaos.JEX.Benchmarks", "Khaos.JEX.Benchmarks\Khaos.JEX.Benchmarks.csproj", "{6FF70722-7A69-4C27-8CB1-989255EBBC73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khaos.JEX.Benchmarks", "benchmarks\Khaos.JEX.Benchmarks\Khaos.JEX.Benchmarks.csproj", "{6FF70722-7A69-4C27-8CB1-989255EBBC73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
