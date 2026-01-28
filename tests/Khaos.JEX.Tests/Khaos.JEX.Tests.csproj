@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Khaos.JEX\Khaos.JEX.csproj" />
+    <ProjectReference Include="..\..\src\Khaos.JEX\Khaos.JEX.csproj" />
   </ItemGroup>
 
 </Project>

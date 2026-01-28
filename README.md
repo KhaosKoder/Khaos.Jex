@@ -276,9 +276,17 @@ var program = jex.Compile(@"
 - .NET 10.0 or later
 - Newtonsoft.Json 13.0.4+
 
+## Related Packages
+
+This package is part of the Khaos suite of libraries:
+
+- `Khaos.Pipeline` - Chainable middleware pipeline for processing
+- `Khaos.Flow` - State-machine workflow orchestration
+- `Khaos.Kafka` - Kafka messaging integration
+
 ## License
 
-MIT License - see LICENSE file for details.
+MIT License - see [LICENSE.md](LICENSE.md) for details.
 
 ## Contributing
 
