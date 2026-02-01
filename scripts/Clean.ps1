@@ -28,4 +28,17 @@ foreach ($folder in $foldersToClean) {
     }
 }
 
+# Clean VS Code extension build artifacts
+$vsCodeExtDir = Join-Path $repoRoot 'Khaos.Jex.VSCode'
+if (Test-Path $vsCodeExtDir) {
+    $vsCodeFoldersToClean = @('out', 'server', 'node_modules')
+    foreach ($folder in $vsCodeFoldersToClean) {
+        $path = Join-Path $vsCodeExtDir $folder
+        if (Test-Path $path) {
+            Write-Host "[Clean] Removing: $path" -ForegroundColor Yellow
+            Remove-Item -Path $path -Recurse -Force -ErrorAction SilentlyContinue
+        }
+    }
+}
+
 Write-Host "[Clean] Clean completed." -ForegroundColor Green
